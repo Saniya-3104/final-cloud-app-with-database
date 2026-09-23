@@ -18,7 +18,7 @@ class LessonInline(admin.StackedInline):
     extra = 5
 
 class LessonAdmin(admin.ModelAdmin):
-    list_display = ['title', 'pub_date']
+    list_display = ['title']
     search_fields = ['title']
 
 class CourseAdmin(admin.ModelAdmin):
